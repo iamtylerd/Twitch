@@ -20,6 +20,9 @@ client.connect();
 
 
 client.on('chat', function(channel, user, message, self) {
+	if(message === "!commands") {
+		client.action("eDONK", "Current commands are, !podcast, !random, !builtby, !brandon");
+	};
 	if(message === "!podcast") {
 		client.action("eDONK", "http://www.nerdturd.info/")
 	};
