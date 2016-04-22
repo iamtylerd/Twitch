@@ -47,7 +47,7 @@ client.on('chat', function(channel, user, message, self) {
 	};
 	if(message === "!robsbrobot") {
 		client.action('eDONK', user['display-name'] + " Please address me as Sir eDONK king of the North!");
-		};
+		});
 
 client.on('connected', function(address, port) {
 	client.action("eDONK", "Welcome Bros, I am robsbrobot, check out this app I made http://bit.ly/1rqkkwQ");
