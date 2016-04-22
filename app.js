@@ -27,6 +27,9 @@ client.on('chat', function(channel, user, message, self) {
 		var randomNum = Math.floor(Math.random() * 100) + 1;
 		client.action("eDONK", "Your random number was " + randomNum);
 	};
+	if(message === "!builtby") {
+		client.action("eDONK", "http://www.tylerdaniel.com");
+	};
 	if(message === "!brandon") {
 		client.action("eDONK", 'Quote from Brandon, "I almost had sex with a tranny, she tricked me in the club, got her home to finally realize she was a dude.  I almost did it anyways."');	
 	};
