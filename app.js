@@ -43,9 +43,9 @@ client.on('chat', function(channel, user, message, self) {
 		client.action("eDONK", "http://www.tylerdaniel.com");
 	};
 	if(message === "!brandon") {
-		client.action("eDONK", 'Quote from Brandon, "I almost had sex with a tranny, she tricked me in the club, got her home to finally realize she was a dude.  I almost did it anyways."');	
+		client.action("eDONK", 'Quote from Brandon, "Insert anything funny"');
 	};
-	if(message === "!robsbrobot") {	
+	if(message === "!robsbrobot") {
 		client.action('eDONK', user['display-name'] + " Please address me as Sir eDONK king of the North!");
 		};
 		});
