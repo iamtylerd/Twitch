@@ -44,7 +44,11 @@ client.on('chat', function(channel, user, message, self) {
 		client.action("eDONK", "http://www.tylerdaniel.com");
 	};
 	if(message === "!brandon") {
+<<<<<<< HEAD
 		client.action("eDONK", 'Quote from Brandon, "I almost had sex with a tranny, she tricked me in the club, got her home to finally realize she was a dude.  I almost did it anyways."');
+=======
+		client.action("eDONK", 'Quote from Brandon, "Insert anything funny"');
+>>>>>>> a71fd9cebccf46807b110a363d220e18c73d4f08
 	};
 	if(message === "!robsbrobot") {
 		client.action('eDONK', user['display-name'] + " Please address me as Sir eDONK king of the North!");
@@ -55,4 +59,7 @@ client.on('chat', function(channel, user, message, self) {
 client.on('connected', function(address, port) {
 	client.action("eDONK", "Welcome Bros, I am robsbrobot, check out this app I made http://bit.ly/1rqkkwQ");
 });
+<<<<<<< HEAD
 
+=======
+>>>>>>> a71fd9cebccf46807b110a363d220e18c73d4f08
